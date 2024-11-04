@@ -12,7 +12,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        // First while loop for MaandInkomen input
+        // Eerste while loop voor MaandInkomen input
         while (true) {
             System.out.print("Vul je maand inkomen in: ");
             try {
@@ -24,7 +24,7 @@ public class Main {
             }
         }
 
-        // Second while loop for Studieschuld input
+        // tweede while loop voor Studieschuld input
         while (true) {
             System.out.print("Vul je Studieschuld in: ");
             try {
@@ -36,7 +36,7 @@ public class Main {
             }
         }
 
-        // Third while loop for Postcode input
+        // derde while loop voor Postcode input
         while (true) {
             System.out.print("Vul je postcode in: ");
             Postcode = scanner.nextInt();
@@ -47,7 +47,7 @@ public class Main {
             }
         }
 
-        // Fourth while loop for Renteprecentage input
+        // Vierde while loop voor Renteprecentage input
         while (true) {
             System.out.print("Vul je renteprecentage in: ");
             Renteprecentage = scanner.nextInt();
@@ -59,7 +59,7 @@ public class Main {
             }
         }
 
-        // Fifth while loop for Partner input
+        // vijfde while loop voor Partner input
         scanner.nextLine(); // Clear buffer before reading String input
         while (true) {
             System.out.print("Partner? ");
@@ -71,7 +71,7 @@ public class Main {
             }
         }
 
-        // Displaying user inputs
+        // laat de user inputs zien
         System.out.println("je maandinkomen: " + MaandInkomen);
         System.out.println("je studieschuld: " + Studieschuld);
         System.out.println("je postcode: " + Postcode);
